@@ -1,0 +1,169 @@
+
+body {
+
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+/* Header */
+
+.main-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  top:0px;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin:0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+/* Navigation */
+
+.nav {
+  padding-right: 20px;
+  display: block;
+}
+
+.nav a {
+  color: white;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+/* Main Content Section */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top:90px;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.box1 {
+  display: flex;
+  height:700px;
+  width: 90%;
+  align-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.box1 .mission {
+  Width:100%;
+  text-align: center;
+  background-color: black;
+}
+
+.box2 {
+  display: flex;
+}
+
+.box2 .featuredTea {
+  Width:100%;
+  text-align: center;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  height: 600px;
+  width: 1000px;
+}
+
+.photo-item {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.item {
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.location {
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1100px;
+  padding-top: 70px;
+  justify-content: space-around;
+  margin: auto;
+  text-align: center;
+
+}
+
+.address {
+  display: inline-block;
+  flex-basis: 280px;
+  background-color: black;
+  width: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1;
+}
+
+/* Footer */
+
+footer h5 {
+  padding-bottom: 5px;
+}
+
+footer .info{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer .title {
+  padding-right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer .copyright {
+  padding-left: 20px;
+  padding-top: 15px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
